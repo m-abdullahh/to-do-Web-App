@@ -26,5 +26,3 @@ for todo in todos:
 st.text_input('', "Add new to-do...",
               on_change=add_todo, key="new_todo")
 
-print("Hello")
-st.session_state
